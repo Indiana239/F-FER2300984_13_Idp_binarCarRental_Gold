@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  margin: 80px 80px 0 100px;
+}
+
+.text {
+  width: 50%;
+  padding-right: 50px;
+}
+
+.faq {
+  width: 630px;
+  background-color: antiquewhite;
+}

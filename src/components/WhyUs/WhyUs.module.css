@@ -1,0 +1,26 @@
+.container {
+  display: grid;
+  margin: 100px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.image {
+  width: 45px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.title {
+  margin-bottom: 20px;
+}
