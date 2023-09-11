@@ -5,55 +5,6 @@ import { IoIosStar, IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import bintang from "../../Assets/Rate.png";
 import Testimoni from "../Testimony/Testimony.css";
 
-// const dataTesti = [
-//   {
-//     image: photo1,
-//     rating: star,
-//     review:
-//       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
-//     profile: "John Dee 32, Bromo",
-//   },
-//   {
-//     image: photo2,
-//     rating: star,
-//     review:
-//       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
-//     profile: "Jessica 25, Bromo",
-//   },
-//   {
-//     image: photo1,
-//     rating: star,
-//     review:
-//       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
-//     profile: "Jean Dee 38, Bromo",
-//   },
-// ];
-
-// function Testimony() {
-//   return (
-//     // <main className={TestimonyStyle.container}>
-//     //   <div>
-//     //     <h2>Testimonial</h2>
-//     //     <p>Berbagai review positif dari para pelanggan kami</p>
-//     //   </div>
-
-//     //   <div className={TestimonyStyle.testimony}>
-//     //     {dataTesti.map((item, index) => (
-//     //       <div className={TestimonyStyle.person} key={index}>
-//     //         <img src={item.image} alt={`gambar ke${index}`} />
-//     //         <div>
-//     //           <img src={item.rating} alt={`gambar ke${index}`} />
-//     //           <h5>{item.review}</h5>
-//     //           <p>{item.profile}</p>
-//     //         </div>
-//     //       </div>
-//     //     ))}
-//     //   </div>
-//     // </main>
-
-//   );
-// }
-
 const Testimony = () => {
   const [testimonialData, setTestimonialData] = useState([
     {
